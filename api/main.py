@@ -100,7 +100,6 @@ async def classify_image(file: UploadFile = File(...)):
 if __name__ == "__main__":
     # yerel sunucunun IP'si ile çalışıyor
     # Runs with the local server's IP
-    uvicorn.run(app, host="192.168.196.88", port=8080)  # Telefon A24
-    # uvicorn.run(app, host="172.21.197.5", port=8080) 
-    #uvicorn.run(app, host="10.44.240.106", port=8080)  # KYK
+    uvicorn.run(app, host="192.168.196.88", port=8080)  
+   
 
